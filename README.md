@@ -4,7 +4,7 @@ A multi-user Reveal.js presentation server using Express.js and Socket.IO.
 
 To install
 
-```js
+```
 $ git clone https://github.com/shameerc/Revealer.js.git
 $ npm install && bower install
 $ grunt
