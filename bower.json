@@ -1,0 +1,22 @@
+{
+  "name": "Revealer",
+  "version": "0.0.1",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "reveal.js": "~2.5.0"
+  },
+  "authors": [
+    "shameer <shamer806@gmail.com>"
+  ],
+  "description": "Reveal js multiplexer",
+  "license": "MIT",
+  "homepage": "http://blog.shameerc.com",
+  "private": true
+}
