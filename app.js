@@ -4,7 +4,8 @@ var express = require('express'),
     ioServer = require('socket.io'),
     app = express(),
     masterUser = 'username',
-    masterPass = 'password';
+    masterPass = 'password',
+    port = process.env.PORT || 3000;
 
 
 app.configure(function () {
@@ -22,8 +23,8 @@ app.get('/client', function (req, res) {
     res.sendfile(__dirname + '/views/client.html');
 });
 
-var server = http.createServer(app).listen(3000, function () {
-    console.log("Express server listening on port 3000");
+var server = http.createServer(app).listen(port, function () {
+    console.log("Express server listening on port "+port);
 });
 
 var io = ioServer.listen(server);

@@ -1,5 +1,5 @@
 {
-  "name": "express",
+  "name": "Revealer.js",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -7,7 +7,6 @@
   },
   "dependencies": {
     "express": "~3.3.4",
-    "jade": "~0.34.0",
     "socket.io": "~0.9.16"
   },
   "devDependencies": {
